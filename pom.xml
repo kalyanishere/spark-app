@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sparksample.spark-app</groupId>
   <artifactId>spark-app</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <name>new spark app</name>
   
   <repositories>
@@ -62,7 +62,7 @@
                     <processTypes>
                         <!-- Tell Heroku how to launch your application -->
                         
-                        <web>java -jar target/spark-app-jar-with-dependencies.jar target/*.war</web>
+                        <web>java -jar target/spark-app-0.0.1-jar-with-dependencies.jar</web>
                     </processTypes>
                 </configuration>
             </plugin>
