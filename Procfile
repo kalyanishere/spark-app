@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/spark-app-jar-with-dependencies.jar --port $PORT target/*.war
+web: java $JAVA_OPTS -jar target/spark-app-0.0.1-jar-with-dependencies.jar --port $PORT target/*.war
